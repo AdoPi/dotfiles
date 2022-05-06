@@ -1,0 +1,9 @@
+#!/bin/bash
+# Shortcut for a Michurin CLI client.
+#
+# Author: machaerus
+# https://gitlab.com/machaerus
+
+# "$HOME/.conda/envs/michurin/bin/python" "$HOME/Sync/Projekty/project_michurin/client/michurin.py" "$@"
+
+"$HOME/.cache/pypoetry/virtualenvs/michurin-client-_yjGt9yr-py3.10/bin/python" "$HOME/Sync/Projekty/project_michurin/client/michurin.py" "$@"

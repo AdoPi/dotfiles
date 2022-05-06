@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# Generate/refresh colorschemes for all your wallpapers for wpg.
+
+shopt -s nullglob
+
+cd "$HOME/Pictures/Wallpapers" || exit
+for f in *
+do
+	echo "$f"
+	wpg -a "$f"
+	sleep 0.1
+done
